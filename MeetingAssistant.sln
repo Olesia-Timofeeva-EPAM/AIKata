@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34408.163
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeetingAssistant", "MeetingAssistant\MeetingAssistant.csproj", "{1112EB48-029F-4BA3-AAD5-20E9F658AA0E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MeetingAssistant", "MeetingAssistant\MeetingAssistant.csproj", "{1112EB48-029F-4BA3-AAD5-20E9F658AA0E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASRService", "ASRService\ASRService.csproj", "{7393F0DC-7CA1-4B5B-ADFB-A43A63363BDD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ASRService", "ASRService\ASRService.csproj", "{7393F0DC-7CA1-4B5B-ADFB-A43A63363BDD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LLMService", "LLMService\LLMService.csproj", "{608AE0C0-4087-4F40-B074-2E4D94949E60}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LLMService", "LLMService\LLMService.csproj", "{608AE0C0-4087-4F40-B074-2E4D94949E60}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TranscriptCollectorService", "TranscriptCollectorService\TranscriptCollectorService.csproj", "{C44070D2-AEA2-4559-A596-9788128420A6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TranscriptCollectorService", "TranscriptCollectorService\TranscriptCollectorService.csproj", "{C44070D2-AEA2-4559-A596-9788128420A6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
