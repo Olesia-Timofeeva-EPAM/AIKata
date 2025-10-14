@@ -1,4 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿using ASRService;
 using LLMService;
 using Microsoft.Extensions.Configuration;
 
@@ -11,10 +11,13 @@ var apiKey = config["Dial:ApiKey"];
 var endpoint = config["Dial:Endpoint"];
 var model = config["Dial:Model"];
 
+var speechKey = config["Speech:SubscriptionKey"];
+var speechRegion = config["Speech:Region"];
+
+var asrService = new AsrService(speechKey, speechRegion);
 ILlmService llmService = new LlmService(apiKey, endpoint, model);
 
-// Example call
-var transcript = "Let's finalize our Q4 roadmap next Monday, and assign marketing leads for new campaigns.";
+var transcript = await asrService.TranscribeFromMicAsync();
 var summary = await llmService.SummarizeAsync(transcript);
 
 Console.WriteLine("=== Meeting Summary ===");

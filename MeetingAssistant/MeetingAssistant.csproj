@@ -23,6 +23,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\ASRService\ASRService.csproj" />
     <ProjectReference Include="..\LLMService\LLMService.csproj" />
   </ItemGroup>
 
